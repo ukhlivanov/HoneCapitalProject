@@ -2,32 +2,107 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+ul{
+  padding: 0;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+li{
+ list-style: none; 
+ position: relative;
+ margin-bottom: 2%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.job_info{
+  margin: auto;
+  /* text-align: center; */
+ width: 400px;
+ padding: 10px;
+ border-radius: 5px;
+ background: lightgrey
 }
 
-.App-link {
-  color: #61dafb;
+.job_info p{
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#job_title{
+  font-size: 20px;
+  font-weight: 700;
+  color: #1D90D5;
+  margin-bottom: 1%;
+}
+
+#job_type{
+  font-size: 16px;
+  font-weight: 700;
+  color: #1D9A00; 
+  margin-bottom: 0.8%;
+}
+
+#job_company{
+  font-size: 18px;
+  font-weight: 500;
+  color: #909090;
+}
+
+#job_location{
+  color: black;
+  font-size: 16px;
+}
+
+.job_info:hover{
+  background: lightgoldenrodyellow;
+  cursor: pointer;
+}
+
+.dashboard-form{
+  padding-top:40px;
+} 
+
+input[type="text"]{
+  width: 30%;
+  height: 30px;
+  outline: none;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+  border-radius: 2px;
+  color: #333;
+  font-size:1.1rem;
+  -webkit-transition:all 0.1s linear;
+  -moz-transition:all 0.1s linear;
+  transition:all 0.1s linear;
+  margin-right: 10px;
+}
+
+input[type="submit"]{
+  width: 20%;
+  height: 30px;
+  outline: none;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+  border-radius: 2px;
+  color: #333;
+  font-size:1.1rem;
+  -webkit-transition:all 0.1s linear;
+  -moz-transition:all 0.1s linear;
+  transition:all 0.1s linear;
+}
+
+input[type="submit"]:hover{
+  background: lightgoldenrodyellow;
+  cursor: pointer;
+}
+
+.chart{
+  width: 45%;
+  float: left;
+  margin-top: 2%;
+
+}
+
+.job{
+  float: left;
+  margin-left: 8%;
 }
