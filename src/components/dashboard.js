@@ -1,8 +1,7 @@
 import React from 'react';
 import Form from './form'
-import List, { list } from './list'
+import List from './list'
 import Chart from './chart'
-// import {API_BASE_URL} from '../config';
 
 
 
